@@ -22,8 +22,8 @@
     "bulma": "^0.9.1",
     "ng-particles": "^2.1.11",
     "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "tsparticles": "^1.18.11",
+    "tslib": "^2.1.0",
+    "tsparticles": "^1.16.1",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

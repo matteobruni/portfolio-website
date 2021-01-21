@@ -67,9 +67,12 @@
 }
 .card__image{
     display:block;
-    width:100%;
-    height:40%;
+    // width:100%;
+    // height:40%;
+    widows: 50%;
+    height: 10%;
     object-fit: scale-down;
+    
 }
 .h1{
     font-size:2.5em;

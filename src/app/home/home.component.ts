@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgParticlesModule } from 'ng-particles';
+import { NgParticlesModule } from 'ng-particles';  
 
 @Component({
   selector: 'app-home',
@@ -13,12 +13,11 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  id="tsparticles";
-  particlesOptions = {
+  options = {
     background: {
 
         color: {
-            value: "white"
+            value: "#FFF"
         }
 
     },
