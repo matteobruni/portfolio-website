@@ -124,30 +124,32 @@ body{
     margin-top: 20px;
 }
 .container .card:nth-child(1) .circle{
-    background-image: url('https://i.ibb.co/c65b7SS/vscode.png');
-    background-size: 300px;
-}
-
-.container .card:nth-child(2) .circle{
-    background-image: url('https://i.ibb.co/B2F6DHk/zoom.png');
-    background-size: 300px;
-}
-.container .card:nth-child(2) .content a{
-    background: blue;
-}
-.container .card:nth-child(3) .circle{
     background-image: url('https://i.ibb.co/xXBsYN7/python.png');
     background-size: 350px;
 }
-.container .card:nth-child(3) .content a{
-    background: #26ff60;
-}
-.container .card:nth-child(4) .circle{
+
+.container .card:nth-child(2) .circle{
     background-image: url('https://i.ibb.co/vkP6j2v/twitch.png');
     background-size: 350px;
 }
-.container .card:nth-child(4) .content a{
+.container .card:nth-child(2) .content a{
     background: #8f26ff;
+}
+.container .card:nth-child(3) .circle{
+    background-image: url('https://i.ibb.co/c65b7SS/vscode.png');
+   
+    background-size: 300px;
+}
+.container .card:nth-child(1) .content a{
+    background: #26ff60;
+}
+.container .card:nth-child(4) .circle{
+    background-image: url('https://i.ibb.co/B2F6DHk/zoom.png');
+
+    background-size: 300px;
+}
+.container .card:nth-child(4) .content a{
+    background: blue;
 }
 @media screen and (max-width:1000px){
     .card{
