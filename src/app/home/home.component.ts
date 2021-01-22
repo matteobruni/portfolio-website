@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgParticlesModule } from 'ng-particles';  
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-home',
@@ -8,9 +10,12 @@ import { NgParticlesModule } from 'ng-particles';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+    constructor(private router:Router){}
 
   ngOnInit(): void {
+  }
+  goToPage(pageName:string):void{
+    this.router.navigate([`${pageName}`])
   }
   
   options = {
