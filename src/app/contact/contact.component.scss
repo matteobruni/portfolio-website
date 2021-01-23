@@ -34,6 +34,10 @@
     width: 25px;
     height:25px;
   }
+  .hands1{
+    width:20%;
+    height: 20%;
+  }
   @media screen and (max-width: 400px){
     .socials{
       padding-left: 0%;
@@ -46,15 +50,32 @@
       font-size: 7px;
     }
     #emails{
-      width: 17px;
-      height:17px;
+      width: 25px;
+      height:25px;
     }
     #githubs{
-      width: 17px;
-      height:17px;
+      width: 25px;
+      height:25px;
     }
     #linkedins{
-      width: 17px;
-      height:17px;
+      width: 25px;
+      height:25px;
+    }
+    .emails{
+      // border: 3px solid crimson;
+      padding-left: 20px;
+      padding-right:20px;
+    }
+    .githubs{
+      padding-left: 20px;
+      padding-right:20px;
+    }
+    .linkedins{
+      padding-left: 20px;
+      padding-right:20px;
+    }
+    .hands1{
+      width: 300px;
+      height: 200px;
     }
   }
