@@ -1,22 +1,23 @@
-<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+<nav class="navbar is-transparent is-spaced has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-      <span class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" data-target="my-navbar-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
+    <a class="navbar-item" (click)="goToPage('')">MW</a>
+    <a class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active'); document.querySelector('.navbar-burger').classList.toggle('is-active');" data-target="my-navbar-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
     </div>
     <div id="my-navbar-menu" class="navbar-menu">
+      <div class="navbar-end">
         <a class="navbar-item is-uppercase" (click)="goToPage('Projects')">projects</a>
-        <a class="navbar-item is-uppercase" href="https://drive.google.com/file/d/1xpqbHArEj-Cy3ZyZJwze8a5GBRNo7BNU/view?usp=sharing">resume</a>
-        <a class="navbar-item" (click)="goToPage('')">MW</a>
         <a class="navbar-item is-uppercase" (click)="goToPage('About')">about</a>
         <a class="navbar-item is-uppercase" (click)="goToPage('Contact')">connect</a>
+      </div>
    </div>
 </nav>
 
 <router-outlet></router-outlet>
-
+<script></script>
 <footer class="footer is-transparent">
   <p>Copyright © 2021 Matthew Winn - All Rights Reserved</p>
 </footer>

@@ -1,12 +1,12 @@
 .navbar {
-    position: relative;
-    display:inline;
+    // position: relative;
+    // display:inline;
   }
   .navbar{
     &.is-transparent{
         background-color: transparent;
         background-image:none;
-        text-align: center;
+        // text-align: center;
     }
   }
   a.navbar-item:hover {
@@ -19,32 +19,30 @@
     letter-spacing: .1em;
     padding: .5em;
     margin: 0;
-    width: 40%;
-    right: 50%;
   }
   .navbar-menu{
       padding: 0 5%
   }
-  @media screen and (min-width: 1088px) {
-    .my-navbar {
-      display: block !important;
-    }
-    .my-navbar .navbar-brand {
-      display: none;
-    }
-    #my-navbar-menu {
-      width: 600px;
-      margin: 0 auto;
-    }
-    #my-navbar-menu>div {
-      flex: 1;
-    }
-    #my-navbar-menu>div>div {
-      flex: 1;
-      justify-content: center;
-    }
+  // @media screen and (min-width: 1088px) {
+  //   .my-navbar {
+  //     display: block !important;
+  //   }
+  //   .my-navbar .navbar-brand {
+  //     display: none;
+  //   }
+  //   #my-navbar-menu {
+  //     width: 600px;
+  //     margin: 0 auto;
+  //   }
+  //   #my-navbar-menu>div {
+  //     flex: 1;
+  //   }
+  //   #my-navbar-menu>div>div {
+  //     flex: 1;
+  //     justify-content: center;
+  //   }
     
-  }
+  // }
   
   .main-body{
     padding: 5rem 1rem;
