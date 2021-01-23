@@ -155,6 +155,7 @@
     .title{
       height: 400px;
       width: 80%;
+      top: 50%;
     }
     .header{
       font-size: 65px;
@@ -163,31 +164,28 @@
       font-size: 10px;
     }
   }
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 400px){
     
     .title{
       height: 400px;
       width: 80%;
     }
     .header{
-      font-size: 45px;
+      font-size: 35px;
     }
     .subtitle{
-      font-size: 10px;
+      font-size: 7px;
     }
     #emails{
-      width: 20px;
-      height:20px;
+      width: 17px;
+      height:17px;
     }
     #githubs{
-      width: 20px;
-      height:20px;
+      width: 17px;
+      height:17px;
     }
     #linkedins{
-      width: 20px;
-      height:20px;
-    }
-    .button{
-      size: 20px;
+      width: 17px;
+      height:17px;
     }
   }

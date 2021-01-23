@@ -34,3 +34,27 @@
     width: 25px;
     height:25px;
   }
+  @media screen and (max-width: 400px){
+    .socials{
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+    .header{
+      font-size: 35px;
+    }
+    .subtitle{
+      font-size: 7px;
+    }
+    #emails{
+      width: 17px;
+      height:17px;
+    }
+    #githubs{
+      width: 17px;
+      height:17px;
+    }
+    #linkedins{
+      width: 17px;
+      height:17px;
+    }
+  }
