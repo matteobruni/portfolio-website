@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgParticlesModule } from 'ng-particles';  
 import { Router } from '@angular/router';
-
+import { ISourceOptions } from 'tsparticles';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
     this.router.navigate([`${pageName}`])
   }
   
-  options = {
+  options: ISourceOptions = {
     background: {
 
         color: {
@@ -46,8 +46,7 @@ export class HomeComponent implements OnInit {
                 distance: 400,
                 duration: 2,
                 opacity: 0.8,
-                size: 30,
-                speed: 1
+                size: 30
             },
             push: {
                 quantity: 4
